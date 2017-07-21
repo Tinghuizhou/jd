@@ -1,0 +1,215 @@
+@charset "UTF-8";
+.banner604 {
+    position: relative;
+}
+
+.banner604 a {
+    position: absolute;
+    text: 0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+
+.main {
+    position: relative;
+}
+
+.slider {
+    float: left;
+    width: 730px;
+    height: 453px;
+    margin: 12px 0 0 220px;
+    position: relative;
+}
+
+.news {
+    float: right;
+    margin-top: 12px;
+    width: 248px;
+    height: 451px;
+    border: 1px solid #E4E4E4;
+}
+
+.circle {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+
+.circle li {
+    text-align: center;
+    line-height: 18px;
+    width: 18px;
+    height: 18px;
+    background-color: #3E3E3E;
+    float: left;
+    margin: 0 2px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+.arrow{
+    display: none;
+}
+.circle li:nth-child(1) {
+    background-color: #B61B1f;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    background: rgba(0, 0, 0, 0.3);
+    top: 50%;
+    margin-top: -31px;;
+    color: #fff;
+    font: 600 18px/62px "宋体";
+    text-align: center;
+}
+
+.arrow-l:hover,
+.arrow-r:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.jd-news {
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+
+.jd-news .dt,
+.life .dt {
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7;
+    line-height: 43px;
+}
+
+.jd-news .dt h3,
+.life .dt h3 {
+    float: left;
+    font: 14px/43px "微软雅黑";
+    color: #666;
+    padding-left: 15px;
+}
+
+.jd-news .dt a {
+    float: right;
+    font: 13px/43px "宋体";
+    margin-right: 15px;
+}
+
+.life {
+    height: 251px;
+    width: 248px;
+    overflow: hidden;
+}
+
+.life .dd ul {
+    width: 252px;
+}
+
+.life .dd li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    float: left;
+    margin: -1px 0 0 -1px;
+}
+
+.life li a {
+    display: block;
+    height: 70px;
+    padding-top: 44px;
+    text-align: center;
+    position: relative;
+}
+.life li i {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 12px;
+    left: 18px;
+    background: url(../images/icon_lifeserv.png) no-repeat;
+}
+
+.life .dt {
+    border-bottom: 1px dotted #E8E8E7
+}
+
+.jd-news .dd ul {
+    padding: 8px 0 0 15px;
+}
+
+.jd-news .dd li {
+    line-height: 28px;
+}
+
+.jd-news .dd li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.life .song {
+    background: url(../images/song.png) no-repeat right top;
+}
+
+.life .mian {
+    background: url(../images/mian.png) no-repeat right top;
+}
+
+.todays {
+    position: relative;
+}
+
+.night {
+    margin: 10px 0 28px 0;
+}
+.night .night-l{
+    float: left;
+}
+.night .night-r {
+    float: right;
+    width: 1000px;
+    height: 160px;
+}
+.night-r ul{
+    width: 500%;
+}
+.night-r li{
+    float: left;
+    margin-right: 1px;
+}
+#mask{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 999;
+}
+#box{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 250px;
+    background-color: #FFF;
+    margin: -125px 0 0 -200px;
+    z-index: 1000;
+}
+#close_login{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font: 700 15px "宋体";
+    cursor: pointer;
+}
